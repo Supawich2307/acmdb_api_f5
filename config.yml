@@ -5,13 +5,13 @@ api:
   f5_lb:
     - address: https://10.98.200.26
       pool:
-        - uri: /mgmt/tm/ltm/node
+        - uri: /mgmt/tm/ltm/pool/
       node:
-        - uri: /mgmt/tm/ltm/node
+        - uri: /mgmt/tm/ltm/node/
       viturl:
-        - uri: /mgmt/tm/ltm/viturl
+        - uri: /mgmt/tm/ltm/viturl/
       rule:
-        - uri: /mgmt/tm/ltm/rule
+        - uri: /mgmt/tm/ltm/rule/
 
 database:
   elastic_search:
