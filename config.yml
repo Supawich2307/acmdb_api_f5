@@ -1,0 +1,25 @@
+authen:
+  user:
+    - token: VC2RSQZ37EBJKWTGQUXXL5XZAF
+api:
+  f5_lb:
+    - address: https://10.98.200.26
+      pool:
+        - uri: /mgmt/tm/ltm/node
+      node:
+        - uri: /mgmt/tm/ltm/node
+      viturl:
+        - uri: /mgmt/tm/ltm/viturl
+      rule:
+        - uri: /mgmt/tm/ltm/rule
+
+database:
+  elastic_search:
+    host: 0.0.0.0
+    port: 9200
+    user: ""
+    passwd: ""
+    index_prefix: "acmdb"
+    scheme: http
+    verify_certs: false
+
